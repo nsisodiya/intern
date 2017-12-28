@@ -3,10 +3,11 @@
  */
 module.exports = function add(a, b) {
   
-  int a;
-  int b;
+  var a;
+  var b;
   
-  b=a+b;
+  b = +a + +b;
+  
   return b;
 
 };
